@@ -26,9 +26,9 @@ Well, unless the fact that there are 129k instances of purchasing games and only
 
 Using the information in the data, I have found out that-
 
-- 12.4k unique users
+- 12.4k users
 - 5,155 videogames
-- Purchase count is 129.5k,  Play count i 70.4k
+- Purchase count is 129.5k,  Play count is 70.4k
 - So there is 59.1k instances of purchasing without playing...
 
 Outliers -
@@ -37,15 +37,20 @@ Outliers -
 - Highest total playtime is 11.7k
 - Most played game has 980k, 2nd most has only 322k
 
-
-## Visualizations
-
 ## Methods
 
 Recommendation System itself pretty much
 
-## Model Visualizations
+## Visualizations
 
 ## Conclusions
 
 ## Future Analysis
+
+## For more info
+
+[Notebook link]
+
+[Presentation link]
+
+## Repository Structure
