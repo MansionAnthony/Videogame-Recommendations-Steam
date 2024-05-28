@@ -1,5 +1,6 @@
 # Videogame-Recommendations-Using-Steam-Data
-Recommending videogames to Steam users using Steam data from this Kaggle dataset: https://www.kaggle.com/datasets/tamber/steam-video-games/data
+Recommending videogames to Steam users using Steam data from this Kaggle dataset:
+https://www.kaggle.com/datasets/tamber/steam-video-games/data
 
 ![Steam's image](https://cdn.cloudflare.steamstatic.com/store/home/store_home_share.jpg)
 
@@ -70,9 +71,9 @@ User 98102518's recommendations:
 ![User 98102518's recommendations](98102518.png)
 Looking at these 2 randomly selected users, the games chosen tend to be related to the user's games for the most part. Instead of focusing on what's popular, it recommends game's companies seem to have be Triple A to Indie, short, long, open ended, and even follow the same genre depending on the user's playtimes. 
 
-## Limitations/Future Analysis
+## Future Analysis
 
-Although this rec sys seems more reliable that a popularity/rating/genre/etc rec sys, the playtime data is still very implicit and can sometimes miss the object for fitting recommendations. There would be significant improvements in this if we-
+Although data is still very implicit and can sometimes miss the object for fitting recommendations, playtime seems way more reliable for recommending similar games for users of all shapes and sizes compared to popularity/rating/genre/tags/etc. This is a very fine system and could serve as a baseline rec system to build up on. When it comes to building up on this recommendation system in the future, there would be significant improvements in this if we-
 - Improved u-b collab filtering by categorizing games by the length of the game. (short games, long games, and replayable/open-ended games)
 - In the playtime area, it would be great to have data on the playtime in the first 14 days of the purchase and playtime in the last 14 days in real-time
 - Maybe also categorize games by developer status like Triple A, Indie, and everything in between and find similarities in that.
