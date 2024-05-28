@@ -80,9 +80,9 @@ Although this rec sys seems more reliable that a popularity/rating/genre/etc rec
 
 ## For More Info
 
-If you want to see the way the code functions in my Notebook, click [here](Repository Notebook Link)
+If you want to see the way the code functions in my Notebook, click [here](https://github.com/MansionAnthony/Videogame-Recommendations-Steam-/blob/progressing/Playtime%20Rec%20System.ipynb)
 
-If you want to see my presentation made from this, click [here](Repistory Presentation PDF Link)
+If you want to see my presentation made from this, click [here](https://github.com/MansionAnthony/Videogame-Recommendations-Steam-/blob/progressing/presentation.pdf)
 
 Link to the Kaggle dataset used [here](https://www.kaggle.com/datasets/tamber/steam-video-games/data)
 
