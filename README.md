@@ -64,10 +64,10 @@ Visual example of cosine similarity on x1 and x2:
 
 #### Randomly selected user recommendations comparison to their currently played games
 User 5250's recommendations:
-![alt text](User_Examples\5250.png)
+![alt text](5250.png)
 
 User 98102518's recommendations:
-![User 98102518's recommendations](User_Examples\98102518.png)
+![User 98102518's recommendations](98102518.png)
 Looking at these 2 randomly selected users, the games chosen tend to be related to the user's games for the most part. Instead of focusing on what's popular, it recommends game's companies seem to have be Triple A to Indie, short, long, open ended, and even follow the same genre depending on the user's playtimes. 
 
 ## Limitations/Future Analysis
