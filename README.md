@@ -88,4 +88,12 @@ Link to the Kaggle dataset used [here](https://www.kaggle.com/datasets/tamber/st
 
 ## Repository Structure
 
-[Repository Structure]
+```
+|— Data                                                      <- Folder holding data downloaded from kaggle
+|— .gitignore                                                <- Ignoring irrelevant files
+|— 5250.png                                                  <- User 5250's recommendations
+|— 98102518.png                                              <- User 98102518's recommendations
+|— Playtime Rec System.ipynb                                 <- The notebook with the recommendations by playtime 
+|— README.md                                                 <- The awesome file letting you read this organized
+|— presentation.pdf                                          <- Google Sldies presentation made from this
+```
