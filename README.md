@@ -32,17 +32,25 @@ All I need are these 4 variables:
 
 Using the dataset, I have found out that-
 
+Data Overview - 
 - 12.4k users
 - 5,155 videogames
 - Purchase count is 129.5k,  Play count is 70.4k
 - So there is 59.1k instances of purchasing without playing, honestly very realistic
 
-Outliers -
+Visual Analysis -
 
-- Highest purchase count is 1k games (User only played half of them lol) 
-- Highest total playtime is 11.7k hour
+- Highest purchase count is 1k games (#1 User only played half of their games lol) 
+![alt text](Images/Highest_Purchase.png)
+
+- Highest total playtime is 11.7k hours
+![alt text](Images/Highest_Playtime.png)
+
 - Most played game has 980k hours, 2nd most has only 322k
-- Most frequent game appeared 9.6k times, second highest is only half of that (4.8k)
+![alt text](Images/Most_Played.png)
+
+- Most frequent game appeared 9.6k times, second highest is little less than half (4.6k)
+![alt text](Images/Most_Frequent.png)
 
 Random FYIs -
 
@@ -65,15 +73,16 @@ Applying this to the recommendation system, I plotting data points in a multidim
 
 ## Visualizations
 
-Randomly selected user recommendations comparison to their currently played games. The first table is the recommendations games, and the second table is the user's playtime data in the dataset. 
+Randomly selected user recommendations comparison to their currently played games. The tables on the left side are the user's data on their games and the playtime, and the second table is the top 10 similar games in relation to playtime in comparison to that.
 
 
-User 5250's recommendations:
+User 5250's recommendations: (Plays a lot of simulation/shooters)
 
-![alt text](Images/5250_recommendations.png) ![alt text](Images/5250_data.png)
+![User 5250's data](Images/5250_data.png)   ![User 5250's recommendations](Images/5250_recommendations.png)
 
-User 98102518's recommendations:
-![User 98102518's recommendations](98102518.png)
+User 59713285's recommendations:
+
+![User 59713285's data](Images/59713285_data.png)   ![User 59713285's recommendations](Images/59713285_recommendations.png)
 
 ## Conclusion
 
@@ -101,10 +110,9 @@ Link to the Kaggle dataset used [here](https://www.kaggle.com/datasets/tamber/st
 
 ```
 |— Data                                                      <- Folder holding data downloaded from kaggle
+|— Images                                                    <- Folder containing used README visuals
 |— .gitignore                                                <- Ignoring irrelevant files
-|— 5250.png                                                  <- User 5250's recommendations
-|— 98102518.png                                              <- User 98102518's recommendations
 |— Playtime Rec System.ipynb                                 <- The notebook with the recommendations by playtime 
-|— README.md                                                 <- The awesome file letting you read this organized
+|— README.md                                                 <- The awesome file letting you read this
 |— presentation.pdf                                          <- Google Sldies presentation made from this
 ```
