@@ -112,7 +112,7 @@ Link to the Kaggle dataset used [here](https://www.kaggle.com/datasets/tamber/st
 |— Data                                                      <- Folder holding data downloaded from kaggle
 |— Images                                                    <- Folder containing used README visuals
 |— .gitignore                                                <- Ignoring irrelevant files
-|— Playtime Rec System.ipynb                                 <- The notebook with the recommendations by playtime 
+|— Top 10 Videogames.ipynb                                   <- The notebook with the recommendations by playtime 
 |— README.md                                                 <- The awesome file letting you read this
 |— presentation.pdf                                          <- Google Sldies presentation made from this
 ```
