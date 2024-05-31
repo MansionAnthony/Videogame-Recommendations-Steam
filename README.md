@@ -70,9 +70,7 @@ Randomly selected user recommendations comparison to their currently played game
 
 User 5250's recommendations:
 
-![alt text](Images/5250_recommendations.png = 250x250)
-
-![alt text](Images/5250_data.png = 250x250)
+![alt text](Images/5250_recommendations.png) ![alt text](Images/5250_data.png)
 
 User 98102518's recommendations:
 ![User 98102518's recommendations](98102518.png)
